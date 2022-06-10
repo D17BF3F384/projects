@@ -1,0 +1,18 @@
+controllers:
+    resource: ../src/Controller/
+    type: annotation
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
+
+# contacts:
+#     path: /contacts/
+#     controller: App\Controller\RoutingController::showContacts
+#     methods: GET
+
+# contacts_id:
+#     path: /contacts?id={id}
+#     controller: App\Controller\RoutingController::showContactsId
+#     methods: GET
+

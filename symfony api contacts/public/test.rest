@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/api/contacts/create
+
+{
+    "firstname": "thomas",
+    "lastname": "huynh",
+    "email": "thomashuynh795@gmail.com",
+    "address": "paris",
+    "age": "10",
+    "phone": "0101010101"
+}
+
